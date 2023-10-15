@@ -1,0 +1,39 @@
+.container {
+    position: absolute;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+
+    li {
+        display: flex;  
+        justify-content: space-between;
+        margin-top: 15px;
+
+        .sendMessage {
+            max-width: 30px;
+            cursor: pointer;
+            transform: rotate(-30deg) translateX(5px);
+        }
+
+        .userInfo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                max-width: 35px;
+                border-radius: 50%;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+            }
+        }
+
+        .userInteract {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+    }
+}

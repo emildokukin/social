@@ -1,0 +1,59 @@
+.postContainer {
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #3c3c3c;
+
+    .ownerInfo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        max-width: 45px;
+        border-radius: 50%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+      }
+    }
+
+    .postInfo {
+      padding-top: 10px;
+
+      .reactionsContainer{
+        margin-top: 20px;
+        display: flex;
+        align-items:end;
+        font-size: 14px;
+
+        .like{
+          cursor: pointer;
+          max-width: 30px;
+          transition: .2s ease;
+
+          &:hover{
+            opacity: 0.7;
+          }
+        }
+      }
+
+      p {
+        word-break: break-all;
+      }
+
+      .imgContainer {
+        padding-top: 10px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          max-height: 300px;
+          object-fit: cover;
+        }
+      }
+    }
+  }

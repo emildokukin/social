@@ -1,0 +1,33 @@
+.usersContainer {
+  display: flex;
+  flex-direction: column;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+  .user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 7px 7px 10px;
+    transition: .2s ease;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: #383838;
+    }
+
+    img {
+      width: 45px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+      border-radius: 50%;
+    }
+
+    &.selected {
+      background-color: #333333;
+    }
+
+  }
+}

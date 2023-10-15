@@ -1,0 +1,43 @@
+.signInContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .signInInnerContainer{
+
+        background-color: #ffffff2e;
+        padding: 20px;
+        border-radius: 15px;
+
+        form{
+
+            h1{
+                text-align: center;
+            }
+
+            input{
+                display: block;
+                width: 450px;
+
+                padding: 15px;
+                margin-top: 15px;
+
+                border-radius: 10px;
+                background-color: #ffffff12;
+                color: #fff;
+            }
+
+            .signInUpContainer{
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+        }
+
+    }
+
+}
