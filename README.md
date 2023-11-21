@@ -1,4 +1,4 @@
-# Social Network "Pyankoff"
+# Social Network
 
 Full stack социальная сеть с чатом, реализованном на веб сокетах, авторизацией с использованием access и refresh токенов.
 
